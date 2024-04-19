@@ -1,0 +1,244 @@
+#header{background-color: blue;
+        color: white;
+        }
+
+html{scroll-behavior: smooth;}
+
+ html {scroll-behavior: smooth;}
+.navbar ul {display:flex;
+            align-items:end;
+            list-style:none;
+            padding:20px;
+            justify-content:end;}
+
+ .navbar ul li {color: white;
+                text-decoration: none;
+                margin: 15px;}
+.navbar ul li a {color: white;
+                 text-decoration: none;
+                font-size: 33px;
+                font-weight: 300px;}
+.navbar ul li a:hover{color: green;} 
+
+#home span {color: blue;
+            font-size: 50px;}
+#home{padding: 50px 59px;
+       font-size: 30px;
+       font-weight: 700;
+
+       }
+
+       #about{padding: 50px 0;
+        display: flex;
+        font-size: 30px;
+        font-weight: 500;}
+  
+  .row {display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;}
+  
+  .about-col-1 {flex-basis: 35%;}
+  .about-col-1 img {border-radius: 15px;
+                   width: 100%;}
+  
+  .about-col-2 {flex-basis: 60%;
+                margin-top: 10px;}
+  
+   .about-col-2 h1 {font-size: 33px;
+                    }
+  
+  .about-col-2 p{font-size: 33px;}
+  
+  .tab-titles {display: flex;
+              margin: 20px 0 40px;
+              font-size: 44px;
+              font-weight: 700;
+              color: blue;}
+  
+  .tab-titles:hover{color: black;}
+  
+  .tab-links {margin-right: 50px;
+              font-size: 15px;
+               cursor: pointer;
+               position: relative;}
+  
+  .tab-links::after{content: '';
+                    width: 0;
+                    height: 3px;
+                    background: blue;
+                    position: absolute;
+                    left: 0;
+                    bottom: -8px;
+                    transition: 0.5s;}
+  
+  .tab-links.active-link ::after{
+        width: 50%;
+  }
+  
+  .tab-contents ul li {
+        list-style: none;
+        margin: 10px 0;
+  }
+  
+  .tab-contents {display: none;}
+  .tab-contents span {color: blue;
+                     font-size: 15px;}
+  
+  .tab-contents.active-tab {display: block;}
+
+
+.services-box{display: flex;}
+
+.service {
+
+    justify-content: center;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.service h2 {
+    color: #333;
+    margin-top: 0;
+}
+.service:hover{background-color: blue;}
+
+ /* Styling for portfolio section */
+ #portfolio {
+    display: flex;
+    background-color: #f8f8f8; 
+    padding: 50px 0; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    margin: 20px; 
+}
+
+.work img {
+    max-width: 100%; 
+    height: auto:
+    display: block;
+}
+   
+
+/* Contact section styles */
+#contact {background-color: blue;
+    text-align: center;
+}
+
+/* Contact info styles */
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: #666;
+}
+
+/* Social links styles */
+.social-links {
+    margin-bottom: 30px;
+}
+
+.social-links h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Inquiry form styles */
+.inquiry-form {
+    margin-bottom: 30px;
+}
+
+.inquiry-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inquiry-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.inquiry-form input[type="text"],
+.inquiry-form input[type="email"],
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inquiry-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover {
+    background-color: #555;
+}
+
+/* Map styles */
+.map {
+    /* Add styles for the map here */
+}
+
